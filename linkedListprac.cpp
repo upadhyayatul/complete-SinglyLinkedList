@@ -127,11 +127,12 @@ int main(){
         if(count == num)
             break;
     }
+    // un-comment the functions calling to use them!!
     //insertNodeStart();
     //insertNodeBetween();
     //deleteNodeStart();
     //deleteNodeLast(num);
-    deleteNodeBetween(num);
+    //deleteNodeBetween(num);
     display();
     return 0;
 }
